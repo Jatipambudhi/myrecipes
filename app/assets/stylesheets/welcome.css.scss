@@ -1,0 +1,108 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+}
+.header {
+	width: 100%;
+	height: 50px;
+	background-color: #f5f5f5;
+}
+.logo {
+	float: left;
+	text-decoration: none;
+	font-size: 1.5em;
+	color: #6c6c6c;
+	line-height: 50px;
+	margin-left: 180px;
+}
+.header a:hover {
+	color: #fff;
+}
+.menu {
+	float: right;
+	margin-right: 170px;
+}
+.menu ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.menu li {
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+.menu a {
+	text-decoration: none;
+	font-size: 1em;
+	color: #6c6c6c;
+	line-height: 50px;
+	padding: 0 20px 0 20px;
+}
+.welcome {
+	width: 1000px;
+	height: 200px;
+	background-color: #f5f5f5;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.welcome h1 {
+	padding-top: 25px;
+}
+.welcomebutton {
+	width: 150px;
+	height: 50px;
+	background-color: #222;
+	margin-left: auto;
+	margin-right: auto;
+	transition: background-color 0.3s ease;
+}
+.welcomebutton:hover {
+	background-color: #db0024;
+}
+.welcomebutton a {
+	line-height: 50px;
+	margin: auto;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	font-size: 0.9em;
+}
+.choicesbrother {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.choices {
+	width: 300px;
+	height: 200px;
+	background-color: #f5f5f5;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 30px;
+	text-align: center;
+	float: left;
+}
+.choices:hover {
+	background-color: #db0024;
+}
+.choices ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.choices a {
+	text-decoration: none;
+	line-height: 200px;
+	color: #222;
+	font-weight: bold;
+}
+.choices a:hover {
+	color: #fff;
+}
